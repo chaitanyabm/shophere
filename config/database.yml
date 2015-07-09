@@ -23,3 +23,14 @@ development:
 #   pool: 5
 #   timeout: 5000
 #   min_messages: WARNING
+
+production:
+  adapter: postgresql
+  database: shop_here_production
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+  timeout: 5000
+  min_messages: WARNING
