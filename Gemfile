@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.2'
+gem 'rails', '4.2.7.1'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 gem 'pg' # PostgreSQL ActiveRecord adapter
@@ -49,9 +49,10 @@ end
 # gem 'spree', git: 'https://github.com/spree/spree.git', branch: '3-0-stable'
 # gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
 # gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
-gem 'spree', git: 'https://github.com/spree/spree.git', branch: '3-0-stable'
-gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
+gem 'spree', git: 'https://github.com/spree/spree.git', branch: '3-1-stable'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-1-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-1-stable'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
 
 
 gem 'rails_12factor', group: :production
