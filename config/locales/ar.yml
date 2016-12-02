@@ -1,0 +1,7 @@
+ar:
+  activerecord:
+    attributes:
+      spree/account:
+        email: "Nome"
+
+  
