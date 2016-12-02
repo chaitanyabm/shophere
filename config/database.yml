@@ -5,14 +5,11 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
+  encoding: unicode
   database: shop_here_development
   pool: 5
   username: postgres
-  password: postgres
-  host: localhost
-  port: 5432
-  timeout: 5000
-  min_messages: WARNING
+  password: chaitanya4carma
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -30,7 +27,6 @@ production:
   pool: 5
   username: postgres
   password: postgres
-  host: localhost
   port: 5432
   timeout: 5000
   min_messages: WARNING
